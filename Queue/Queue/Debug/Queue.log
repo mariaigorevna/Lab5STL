@@ -1,0 +1,63 @@
+﻿  Queue.cpp
+c:\users\lev\source\repos\queue\queue\queue.cpp(27): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\lev\source\repos\queue\queue\queue.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\lev\source\repos\queue\queue\queue.cpp(49): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\lev\source\repos\queue\queue\queue.cpp(51): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\lev\source\repos\queue\queue\queue.cpp(65): warning C4018: <: несоответствие типов со знаком и без знака
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(596): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  c:\users\lev\source\repos\queue\queue\queue.cpp(85): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::copy_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>,main::<lambda_cb978edde8a27bbd0e7528b771882287>>(_InIt,_InIt,_OutIt,_Pr)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<double,std::allocator<double>>>,
+              _Ty=double,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Pr=main::<lambda_cb978edde8a27bbd0e7528b771882287>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\xutility(1062): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\xutility(1059): note: выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Debug_lt_pred<_Pr&,double&,double&>(main::<lambda_1f67f412bc55dfc14c085424506ac7f3>&,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)"
+          with
+          [
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>,
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3484): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)"
+          with
+          [
+              _RanIt=double *,
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3518): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Sort_unchecked<double*,_Fn>(_RanIt,_RanIt,int,_Pr)"
+          with
+          [
+              _Fn=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>,
+              _RanIt=double *,
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>
+          ]
+  c:\users\lev\source\repos\queue\queue\queue.cpp(95): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,main::<lambda_1f67f412bc55dfc14c085424506ac7f3>>(const _RanIt,const _RanIt,_Pr)"
+          with
+          [
+              _Ty=double,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3391): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3398): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3413): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3433): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\xutility(1064): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3390): note: выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Debug_lt_pred<_Pr&,double&,double&>(main::<lambda_1f67f412bc55dfc14c085424506ac7f3>&,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(false)"
+          with
+          [
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>,
+              _Ty1=double &,
+              _Ty2=double &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\algorithm(3484): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)"
+          with
+          [
+              _RanIt=double *,
+              _Pr=main::<lambda_1f67f412bc55dfc14c085424506ac7f3>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\xutility(1065): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Queue.vcxproj -> C:\Users\Lev\source\repos\Queue\Debug\Queue.exe
